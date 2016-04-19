@@ -18,5 +18,17 @@ angular.module('chefDezApp')
         templateUrl: 'app/components/about/aboutView.html'
       })
 
+      .state('menu', {
+        url: '/menu',
+        controler: 'menuCtrl',
+        templateUrl: 'app/components/menu/menuView.html'
+      })
+
+      .state('contact', {
+        url: '/contact',
+        controller: 'contactCtrl',
+        templateUrl: 'app/components/contact/contactView.html'
+      })
+
 
   })
